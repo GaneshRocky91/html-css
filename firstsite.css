@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(img.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    /* border: 12px solid black; */
+    color: rgba(6, 23, 26, 0.767);
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+.container h1 {
+    font-family: 'Acme', sans-serif;
+    display: inline-block;
+    font-size: 40px;
+    /* border-bottom: 4px solid rgba(6, 23, 26, 0.767); */
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+
+.box {
+    width: 100%;
+    /* border: 2px rgba(6, 23, 26, 0.767); */
+    margin: 32px 0px;
+    /* border-bottom: 3px solid rgba(222, 239, 241, 0.767); */
+}
+
+.box i {
+    text-align: center;
+    width: 30px;
+    /* float: left; */
+    /* padding: 0px 12px; */
+}
+
+.box input {
+    background: none;
+    font-size: 20px;
+    width: 75%;
+    border: 5px;
+    outline: none;
+    /* color: rgba(122, 63, 63, 0.932); */
+    /* margin: 12px 0px; */
+    padding: 5px 10px;
+    font-family: 'Acme', sans-serif;
+}
+
+.idbtn {
+    font-size: 16px;
+    background: cadetblue;
+    cursor: pointer;
+    outline: none;
+    /* width: 25%; */
+    margin: 23px 0px;
+    padding: 10px;
+    color: rgba(6, 23, 26, 0.767);
+    /* border: 2px solid purple; */
+    border-radius: 15px;
+    font-family: 'Acme', sans-serif;
+}
